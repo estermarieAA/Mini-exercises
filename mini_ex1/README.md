@@ -1,13 +1,13 @@
 # My first mini exercise
 
-## The "Dare to listen to trump computer" 
+### The "Do you dare to listen to trump computer, you might get dumb" 
 
 ![alt text](trumpcomputer.png "When the button on the computer is clicked, a qoute from president TRumps titter account is displayed on the background")
 
-### link:
+##### link:
 https://estermarieaa.github.io/Mini-exercises/mini_ex1
 
-
+#### The programming experience
 In this mini exercise my goal was to use a syntax, and change the parameters. 
 I wanted to get familiar with the coordinatesystem, so I easily could draw, or place something in a future program. It took some time to figure out how the different shapes function, and what their coordinates were. But through practice I figured it out. 
 
