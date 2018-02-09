@@ -4,4 +4,5 @@
 
 ![alt text](trumpcomputer.png "When the button on the computer is clicked, a qoute from president TRumps titter account is displayed on the background")
 
-
+### link:
+https://estermarieaa.github.io/Mini-exercises/mini_ex1
