@@ -2,7 +2,7 @@
 
 ### The truth about you 
 
-![alt text](you.png "If you Enter your name and press Enter, a statement about you will show, and a percentage for how much you forfill it shows in the loadingbar.") {width=40px height=400px})
+![alt text](you.png "If you Enter your name and press Enter, a statement about you will show, and a percentage for how much you forfill it shows in the loadingbar." {width=40px height=400px}) 
 
 ![alt text](you.png "If you Enter your name and press Enter, a statement about you will show, and a percentage for how much you forfill it shows in the loadingbar.")
 
