@@ -1,6 +1,6 @@
-//program navn
-//mb
-//date
+//Name: "What you really are"
+//made by Ester Marie Aagaard
+//17/02/2018 mini exercise 2
 
 //Variables
 var input;
