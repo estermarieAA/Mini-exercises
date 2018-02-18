@@ -7,13 +7,16 @@ var input;
 var p;
 var words;
 var word;
-var tx, ty;
+
+
 
 
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background(63,127,191);
+	background(63,127,230,150);
+
+	//Welcome text
 	textAlign(CENTER);
 	text("Input name - And press Enter",windowWidth/2,70);
 
@@ -22,8 +25,7 @@ function setup() {
 	rectMode(CENTER);
 	rect(windowWidth/2,90,200,20);
 
-
-	input= createInput(); //
+	input= createInput(); //creates a space that can contain a input
 	input.size(192,11);
 	input.position(windowWidth/2-99,82);
 
@@ -33,7 +35,7 @@ function setup() {
 	textAlign(CENTER);
 	strokeWeight(6);
 	text("%",windowWidth/2+210,windowHeight/2+4);
-	p = 0;
+	p = 0;//p is made to ensure that the Enter funtion only execute ones
 
 	//results
 	words = ['red', 'blue', 'dangerous', 'expensive',
@@ -53,8 +55,7 @@ function draw() {
 }
 
 
-
-/*Enter function to create a result
+/*Enter function creates a result
 when the user enters his/her name*/
 function EnterPressed(){
 
@@ -63,14 +64,16 @@ function EnterPressed(){
 				p = random(0,400);
 				rectMode(CORNER);
 				noStroke();
-				fill(0,255,0);
-				rect(windowWidth/2-198.5,windowHeight/2+5,p,7);
+				for (var g=0; g<=255; g+=20){
+					fill(0,g,0);}
+				rect(windowWidth/2-198.5,windowHeight/2-3,p,7);
+
 
 				var name = input.value();
 				strokeWeight(0);
 				fill(0);
 				p=p/4;
-				p=nf(p,2,1);
+				p=nf(p,2,1);//number of decimals
 				word= random(words);
 				textSize(30);
 				text('Hello ' +name+ ' - you are: '+p+'% '+word,
