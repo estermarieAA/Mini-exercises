@@ -64,7 +64,7 @@ function EnterPressed(){
 				rectMode(CORNER);
 				noStroke();
 				fill(0,255,0);
-				rect(windowWidth/2-198.5,windowHeight/2-8,p,7);
+				rect(windowWidth/2-198.5,windowHeight/2-10,p,7);
 
 				var name = input.value();
 				strokeWeight(0);
