@@ -13,7 +13,7 @@ var tx, ty;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background(193,66,66,100);
+	background(63,127,191);
 	textAlign(CENTER);
 	text("Input name - And press Enter",windowWidth/2,70);
 
