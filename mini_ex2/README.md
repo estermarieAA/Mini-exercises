@@ -11,5 +11,9 @@
 https://estermarieaa.github.io/Mini-exercises/mini_ex2
 
 #### The programming experience
+
+Describe your program and what you have used and learnt
+
+What is fun? To what extend your program addresses Goriunova's noton of fun? Is it fun in relation to geekiness, or humour, or paradox, or other modes of thoughts? (This question requires your articulation of your work beyond just describing how it works technically
  
 
