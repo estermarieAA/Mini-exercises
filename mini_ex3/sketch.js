@@ -37,10 +37,10 @@ function setup() {
 function draw() {
 
 	//time counters
-		s=second();
+		s=millis()/1000;
 		n=currentSecs/5;
 		secStart = 0;
-		currentSecs = floor(second() - secStart);
+		currentSecs = floor(s - secStart);
 
 	//rectangle drawn upon the trobber, to make a dissapearing effect
 		push();
