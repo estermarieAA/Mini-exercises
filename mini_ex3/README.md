@@ -30,3 +30,6 @@ A throbber tells us that either something is being processed. Processes we arent
 
 If we should think of the throbber differently, It could be in relation to speed of our lifestyle, that maybe we could introduce the throbber in more aspects of our everyday life, so we are forced to wait, and take the time to wait in the middle of all our plans. 
 
+##### Changes I could have made
+
+If I instead of showing the seconds, showed the milliseconds, and changed the equation. It would still be possible to show the statements about how many times things have happened, but it would be more difficult for the user to calculate how long they have been waiting. When the seconds are showing, it is quite easy for people to figure aout the amount of time they have been waiting. 
