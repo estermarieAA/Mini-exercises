@@ -33,3 +33,5 @@ If we should think of the throbber differently, It could be in relation to speed
 ##### Changes I could have made
 
 If I instead of showing the seconds, showed the milliseconds, and changed the equation. It would still be possible to show the statements about how many times things have happened, but it would be more difficult for the user to calculate how long they have been waiting. When the seconds are showing, it is quite easy for people to figure aout the amount of time they have been waiting. 
+
+Using the program I see that the timer only counts the seconds of the clock on my computer, when I use the second(); command. This isn't the right way to count time, since I want to count the seconds from the programs upstart and to the current time. 
