@@ -1,73 +1,87 @@
-var b;
-var ss;
+//variables
+var currentSecs;
+var secStart= 0;
 var s;
-var currentMillis;
-var milliStart = 0;
+var n;
+var number;
+var words;
 
-function preload(){
-	b= loadImage("image/background.jpg");
-	ss= loadImage("image/starsmall.png");
-	s=loadImage("image/star.png");
-}
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	ellipseMode(CENTER);
+	background(255,200,0);
+	frameRate(10);
 
+//Static texts
+	text('While you have been waiting',windowWidth/2-200,windowHeight/2-3);
+	push();
+	textSize(10);
+	fill(0,0,0,51);
+	text('Try clicking the mouse', 10,10);
+	pop();
 
-
-
+//Random statements arrays
+	number=[10.056,375,2090,2750,2,35000,205.000,23.000, 1.860,
+	8.666,17,47,300,21,10,9,15.800];
+	words=['pounds of edible food is thrown away in the United States',
+	'McDonalds burgers are sold.','KitKat fingers are consumed worldwide.',
+	'hot dogs are eaten in America.','jars of Nutella are sold.',
+	'Coca-Cola products are consumed.','Facebook posts are posted.',
+'tweets are posted.','people search for porn on Google.',
+'Snapchats are sent.','million emails are sent.','new websites are created.',
+'new Instagram pictures are uploaded.','babies are born in the world',
+'babies are born into poverty.','people die in the world.',
+'tons of water flows over Niagara Falls.'];
 }
 
 function draw() {
-currentMillis = floor(millis() - milliStart);
-	// image(b,0,0,b.width, b.height);
-	background(174,211,104,200);
 
-Throbber();
+	//time counters
+		s=second();
+		n=currentSecs/5;
+		secStart = 0;
+		currentSecs = floor(second() - secStart);
 
-}
-
-function Throbber(){
-
-
-		translate(width/2, height/2);
+	//rectangle drawn upon the trobber, to make a dissapearing effect
 		push();
-		for (var i=0; i<12; i=i+1){
-			push();
-			rotate(TWO_PI*i/12);
-			rotate(radians(frameCount*2));
-				var tx=0.09*frameCount;
-				translate(tx*0.2,0);
-				// stroke(1);
-				// fill(255,255,255);
-				// text(nf(currentMillis, 2), 0, 0);
+		fill(255,200,0, 40);
+		rectMode(CENTER);
+		noStroke();
+		rect(windowWidth/2,windowHeight/2,70,70);
+		pop();
 
-				ellipse(0,0,20,20);
-				// image(s,0,0,20,20);
-				translate();
-				push();
-				rotate(TWO_PI*i/12);
-				rotate(radians(frameCount*2));
-					var tx=0.09*frameCount;
-					translate(tx*0.2,0);
-					// stroke(1);
-					// fill(255,255,255);
-					// text(nf(currentMillis, 2), 0, 0);
-					// noStroke();
-					ellipse(0,0,5,5);
-					// image(ss,0,0,10,10);
-					translate();
-			pop();
-		}
+	//moving throbber
+		throbber(26,20,1);
 
-		// push();
-		// rotate(TWO_PI*i/8);
-		// 	var tx=0.2*-frameCount;
-		// 	translate(tx,0);
-		// 	ellipse(0,0,20,20);
-		// 	translate();
-		// pop();
+	//counting static throbber
+		throbber(10,20,2);
 
 }
-//	for (var tx=0; tx<10; tx=tx*0.2){
+
+function mousePressed(){
+	push();//rectangle drawn upon the previous text
+	noStroke();
+	fill(255,200,0);
+	rect(windowWidth/2+50,windowHeight/2-15,1000,20);
+	pop();
+
+	translate(windowWidth/2+50,windowHeight/2-3);
+	var rand = floor(random(words.length));//random number/word
+	text(number[rand]*n + " " + words[rand],0,0);//statements
+}
+
+function throbber(num,ts,x){
+
+		push();
+		translate(width/2, height/2);
+		var r=360/num*(frameCount*10%num);
+		rotate(radians(r*5));
+		noStroke();
+		textSize(ts);
+		strokeWeight(x);
+		stroke(1);
+		fill(255,255,255);
+		text(nf(currentSecs, 3), 0, 0);
+		pop();
+
+}
