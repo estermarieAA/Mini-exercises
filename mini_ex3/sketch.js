@@ -1,7 +1,7 @@
 //variables
 var currentSecs;
 var secStart= 0;
-var sm;
+var s;
 var n;
 var number;
 var words;
@@ -37,10 +37,10 @@ function setup() {
 function draw() {
 
 	//time counters
-		sm=millis();
+		s=seconds();
 		n=currentSecs/5;
 		secStart = 0;
-		currentSecs = floor(millis()/1000 - secStart);
+		currentSecs = floor(seconds() - secStart);
 
 	//rectangle drawn upon the trobber, to make a dissapearing effect
 		push();
