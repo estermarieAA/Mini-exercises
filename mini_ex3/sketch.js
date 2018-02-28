@@ -1,7 +1,6 @@
 //variables
 var currentSecs;
 var secStart= 0;
-var s;
 var n;
 var number;
 var words;
@@ -37,7 +36,6 @@ function setup() {
 function draw() {
 
 	//time counters
-		s=seconds();
 		n=currentSecs/5;
 		secStart = 0;
 		currentSecs = floor(seconds() - secStart);
