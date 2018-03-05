@@ -5,9 +5,9 @@ var v;
 
 
 function preload(){
-	imga=loadImage('gender.png');
-	imgb=loadImage('color.png');
-	imgc=loadImage('path.png');
+	imga=loadImage('images/gender.png');
+	imgb=loadImage('images/color.png');
+	imgc=loadImage('images/path.png');
 }
 
 function setup(){
