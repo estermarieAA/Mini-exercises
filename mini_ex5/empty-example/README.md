@@ -33,7 +33,8 @@ The concept behind my game is an utopian world where the user can costumize his 
 As a standard user without futher knowledge about software and code, we use predefined and programmed apps, and we are not able to change the attributes of theese apps. This i relate to the obejct oriented programming, since some things a available to the user and some things arent and a choice have been made about what to implement. This makes the user very passive, since they are only able to do something in a specific way, and maybe their behavior is controlled by the way the program is coded, without them even knowing this. It is the programmers abstraction that becomes their reality, and if a small amount of people are able to decide what the world should look like through their abstractions, we are mooving futher and further away from democracy as we know it, since more and more software has a big impact on how we live out lifes.
 
 We see this is many of the social media sites, f. ex when you need to choose gender of your profile and can only chose between two boxes, man or woman. Or maybe in the colorcode of alle the apps and websides we use, the colors are predefined and appeal to different people. So by choosing a specific color to your app, you might chose a specific target group. And so on. 
-´
+
+The reason I chose to use the iphone as a pool and my character a swimmer symbolizes that the user swims "in an ocean of opportunities" - or at least you should as user be able to do so. 
 
 #### Changes I could have made
 
