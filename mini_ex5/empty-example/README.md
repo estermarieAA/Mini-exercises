@@ -8,7 +8,7 @@
 ![alt text](p2.png "")
 
 ##### link:
-https://estermarieaa.github.io/Mini-exercises/mini_ex5/empty-example
+https://estermarieaa.github.io/Mini-exercises/mini_ex5/empty-example/
 
 #### The programming experience
 
