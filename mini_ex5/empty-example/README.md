@@ -1,11 +1,11 @@
 # Mini exercise 5
 
-### pgroman name
+### App collecter
 
 
 ![alt text](p1.png "")
 
-![alt text](p2.png "")
+
 
 ##### link:
 https://estermarieaa.github.io/Mini-exercises/mini_ex5/empty-example/
