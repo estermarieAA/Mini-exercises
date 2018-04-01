@@ -13,7 +13,7 @@ https://estermarieaa.github.io/Mini-exercises/mini_ex07
 ##### Collaborated with: 
 Sissel Raahede (https://github.com/sisselrll)
 
-#### The programming experience
+
 
 #### Analysis of E-lit work 
 
