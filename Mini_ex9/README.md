@@ -1,6 +1,8 @@
 
 # Mini_ex 9
 # Final project Flowcharts 
+This Mini_ex was made together with [Camilla](https://github.com/CamillaMondrup),[Sissel](https://github.com/sisselrll), [Nina](https://github.com/nborgbjerg)  from my study group.
+
 
 ## Live streak
 
@@ -38,5 +40,4 @@ We need to learn how to use facetracking in Javascript, and get familiar with th
 
 
 
-This Mini_ex was made together with [Camilla](https://github.com/CamillaMondrup),[Sissel](https://github.com/sisselrll), [Nina](https://github.com/nborgbjerg)  from my study group.
 
