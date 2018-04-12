@@ -1,5 +1,15 @@
 
 # Mini_ex 9
+
+# Individual work - Flowchart over mini_ex Object orientaion
+
+![alt text](flowchartmini_ex5.jpg)
+
+In the readme file:
+Attach the flowchart image
+You need to have a hyperlink that links to your chosen mini_ex folder.
+What may be the difficulty in drawing the flow chart?
+
 # Final project Flowcharts 
 This Mini_ex was made together with [Camilla](https://github.com/CamillaMondrup),[Sissel](https://github.com/sisselrll), [Nina](https://github.com/nborgbjerg)  from my study group.
 
