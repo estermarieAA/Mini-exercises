@@ -2,8 +2,8 @@
 # Mini_ex 9
 # Final project Flowcharts 
 
-![alt text](search.png)
-![alt text](search.png)
+![alt text](Code an temporality.jpg)
+![alt text](empathibot.jpg)
 
 
 
