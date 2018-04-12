@@ -48,7 +48,7 @@ The program revolves around the subject of receiving and giving empathy. In this
 
 We need to learn how to use facetracking in Javascript, and get familiar with this. We need to create an avatar that will follow you facial expressions, and therefore different parts of the avatars face has to be connected with different tracking points on the users face, so the avatar can mimic the users expressions. 
 
-
+### Individual
 
 
 
