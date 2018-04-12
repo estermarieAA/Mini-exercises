@@ -5,10 +5,12 @@
 
 ![alt text](flowchartmini_ex5.jpg)
 
-In the readme file:
-Attach the flowchart image
-You need to have a hyperlink that links to your chosen mini_ex folder.
+Link to the chosen mini_ex:
+ [Mini_ex5](https://github.com/estermarieAA/Mini-exercises/tree/gh-pages/mini_ex5/empty-example)
+
 What may be the difficulty in drawing the flow chart?
+
+I was not sure who I thought the audience of the flowchart would be. So it has become very technical, I dont think my mother would understand it. After we have worked with flowcharts in the group I would chose to have done this differently. One spect though was, that I didnt find it difficult to describe the program with a flowchart. Just which language to use. It is a good way to make a program easy to understand. 
 
 # Final project Flowcharts 
 This Mini_ex was made together with [Camilla](https://github.com/CamillaMondrup),[Sissel](https://github.com/sisselrll), [Nina](https://github.com/nborgbjerg)  from my study group.
