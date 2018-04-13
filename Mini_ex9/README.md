@@ -57,4 +57,10 @@ If you have to bring the concept of algorithms from flow charts to a wider cultu
 
 
 
+"This is a book about the algorithm as the vehicle or tool of computation: the object at the intersection of computational space, cultural systems, and human cognition. We need a deeper understanding of the algorithm in order to understand how computational systems are transforming our world today"(p.5)
 
+If algorithms is the vehicle or tool for computation, and compoutation is present in as many aspects of our life as it is today, we need to develop some kind of understanding of the concept in general. To understand how the things we use in our daily life functions. But algorithms can be t complex for a regular schooled person to understand. Therefore I bring in the concept of flowcharts. Flowchart is one kind of algorithm in it self. A machine cant read the flowchart and execute a function, but it is a representation for f. ex. a machine language code that you cant understand. But the representation in another language at with the visual shapes, lets you get a wider understanding of what happens when you use f. ex. a digital object. 
+
+"This is the context in which we use algorithms today: as pieces of quotid- ian technical magic that we entrust with booking vacations, suggesting potential mates, evaluating standardized test essays, and performing many other kinds of cultural work."(p.16)
+
+We trust the algorithms with many aspects of our lifes, and trust them to make decisions for us. But our minds cant grasp the hole extent of the most complex algorithms. Most of the algorithms we meet on the internet, is too complex to understand. But a recipe for baking a cake is also an algorithm at something we can analyse and understand. But when do we give up our need to understand the algorithms behind the processes we use in our daily life. And what are the consequences of using an algorithm that you dont understand, but gives you answers that you couldnt get as quickly on your own, or are there any consequences?
