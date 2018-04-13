@@ -33,7 +33,6 @@ We will somehow need to figure out a way to register the interactions that the u
  
 As a consequence of not reaching your weekly goals of real-life social interactions, we thought about blocking social media accounts. This would not ruin your life, but limit you in a lot of ways. Our program will work as almost a detox of SoMe, and therefore we want to encourage the users to go out and meet people in real life. The technical difficulty of this is how we will do this, how would we get access to the social media and is it possible in any way? In a broader context, if we were to expand the program to the full idea, we would need some sort of cooperate with these big platforms; they would need to allow us to block their users. We need to find a way of doing this, how could it be possible. There could be an alternative to it as well, that will both give incitament for users to go out, but also work as a consequence.
 
-### Individual
 
 ## Empathibot
 
@@ -48,7 +47,13 @@ The program revolves around the subject of receiving and giving empathy. In this
 
 We need to learn how to use facetracking in Javascript, and get familiar with this. We need to create an avatar that will follow you facial expressions, and therefore different parts of the avatars face has to be connected with different tracking points on the users face, so the avatar can mimic the users expressions. 
 
-### Individual
+### Individual - How is this flowchart different from my own. 
+
+We have used another language in this flowchart, that makes it easier to understand for more people. In my flowchart it is still a bit tecknical although I dont mention most of the code. Visually they differ, from line to arrows, that makes it easier for another person to analyse in wich order the different things happen.
+
+### Individual - The concept of algorithms
+
+If you have to bring the concept of algorithms from flow charts to a wider cultural context, how would you reflect the notion of algorithms? (see if you could refer to the text and articulate your thoughts?)
 
 
 
